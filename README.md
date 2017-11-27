@@ -1,4 +1,4 @@
-**WARNING**: :construction: hacking around while learning. Nothing to see here, move on. :construction: 
+:construction: **WARNING**: :construction: hacking around while learning. :construction: Nothing to see here, move on. :construction: 
 
 # inkscape-areas
 Extension to measure areas enclosed by paths in Inkscape.
@@ -13,3 +13,11 @@ Link or copy the `area.*` files into the Inkscape extension directory, e.g.:
 
 On Windows, if Inkscape is installed in `C:\Program Files\Inkscape` then the
 extensions directory will be `C:\Program Files\Inkscape\share\extensions`
+
+## Usage
+
+To run from the commandline:
+
+```
+inkscape --verb com.salween.measure_areas
+```
