@@ -1,4 +1,4 @@
-**WARNING**: hacking around while learning. Nothing to see here, move on.
+**WARNING**: :construction: hacking around while learning. Nothing to see here, move on. :construction: 
 
 # inkscape-areas
 Extension to measure areas enclosed by paths in Inkscape.
