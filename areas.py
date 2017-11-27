@@ -76,13 +76,8 @@ class Areas(inkex.Effect):
         factor *= scale/self.unittouu('1'+self.options.unit)
 
         # Gather paths
-        paths = []
-        for id, node in self.selected.iteritems():
-            if node.tag != nspath:
-                nodes = node.findall('.//{0}'.format(nspath))
-                debug(nodes)
-                paths.extend(nodes)
-            debug(paths)
+        debug(dir(self))
+        paths = self.document.findall('.//{0}'.format(nspath))
         # Act on paths
         for node in paths:
             mat = simpletransform.composeParents(node, [[1.0, 0.0, 0.0], [0.0, 1.0, 0.0]])
