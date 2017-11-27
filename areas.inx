@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
 	<_name>Measure Areas</_name>
-	<id>com.salween.measure_length</id>
+	<id>com.salween.measure_areas</id>
 	<dependency type="executable" location="extensions">areas.py</dependency>
 	<dependency type="executable" location="extensions">measure.py</dependency>
 	<dependency type="executable" location="extensions">inkex.py</dependency>
